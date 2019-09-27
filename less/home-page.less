@@ -29,7 +29,7 @@
 }
 .home {
   .content-section {
-    margin: 30px 0;
+    margin: 30px 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -91,7 +91,7 @@
 
   .content-destination {
     width: 75%;
-    margin: 0 auto 30px;
+    margin: 0 auto 10%;
 
     @media @mobile{
       display: block;
@@ -110,9 +110,13 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    margin: auto 5%;
 
     @media @mobile{
       display: block;
+    }
+    @media @small-tablet{
+      margin: auto 12%;
     }
 
     .destination {
@@ -129,3 +133,5 @@
   }
 }
 // home
+
+

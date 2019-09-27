@@ -47,12 +47,18 @@ Follow these steps for completing your project.
 ## Task 5: Mobile Updates Needed
 * [X] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
 * [X] Review the [mobile design file](design-files/fun-bus-mobile.png). You will see several design updates that need updating. 
-* [ ] Match the design file at `500px` as well as you can 
+* [X] Match the design file at `500px` as well as you can 
 
 ## Stretch Goals: 
-* [ ] Create an animation mixin using parametric mixins
+* [X] Create an animation mixin using parametric mixins
+
+Added flashing mixin animation to 'sign me up' buttons
+
 * [ ] Introduce a form with inputs allowing users to select a vacation package and a submit button at the bottom of the page. Introduce inputs for name, email, phone number, and an area for them to leave special instructions. 
+
 * [ ] Style the site to look good at all sizes, not just desktop and phone
+
+Changed margins on given code on home-page.less so that the page is more responsive to re-sizing windows
 
 
 
