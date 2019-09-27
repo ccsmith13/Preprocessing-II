@@ -366,6 +366,7 @@ nav .nav-links a {
 }
 .home .content-pick {
   padding-top: 30px;
+  padding-bottom: 30px;
   border-top: 2px dashed #C0C0C0;
   display: flex;
   justify-content: space-between;
@@ -376,13 +377,8 @@ nav .nav-links a {
     display: block;
   }
 }
-@media (max-width: 600px) {
-  .home .content-pick {
-    margin: auto 12%;
-  }
-}
 .home .content-pick .destination {
-  width: 30%;
+  width: 22%;
   margin-bottom: 30px;
 }
 @media (max-width: 500px) {
@@ -391,5 +387,10 @@ nav .nav-links a {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
+  }
+}
+@media (min-width: 750px) {
+  .home .content-pick .destination {
+    width: 30%;
   }
 }

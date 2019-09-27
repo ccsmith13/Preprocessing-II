@@ -107,6 +107,7 @@
 
   .content-pick {
     padding-top: 30px;
+    padding-bottom: 30px;
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
@@ -115,12 +116,9 @@
     @media @mobile{
       display: block;
     }
-    @media @small-tablet{
-      margin: auto 12%;
-    }
 
     .destination {
-      width: 30%;
+      width: 22%;
       margin-bottom: 30px;
 
       @media @mobile{
@@ -128,6 +126,9 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0;
+      }
+      @media @desktop{
+        width: 30%;
       }
     }
   }
