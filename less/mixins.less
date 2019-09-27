@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    background-color: teal;
+    background-color: @eastern-blue;
     color: white;
     height: 15%;
     font-size: 14px;
@@ -12,4 +12,13 @@
 
 .btn{
     .button-function();
+
+    @media @mobile{
+        height: 50px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        margin-bottom: 10%;
+    }
 }
